@@ -14,3 +14,10 @@ print tabby_cat
 print persian_cat
 print backslash_cat
 print fat_cat
+
+i = "/dd-ddfafa\\sadfa|aaa|"
+while True:
+	for i in ["/","-","|","\\","|"]:
+		print "%s\r" %i,
+		print "%r\r" %i
+		break
